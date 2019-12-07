@@ -1,0 +1,40 @@
+@keyframes fondo{
+    25%{background-color:skyblue}
+    40%{background-color:gray}
+    80%{background-color:teal}
+    90%{background-color:fuchsia}
+    100%{background-color:purple}
+}
+h2{
+  font-family: Cooper Black;
+  text-decoration: underline;
+}
+
+body {
+   animation:fondo;
+   animation-name: fondo;
+   animation-duration: 8s;
+   animation-iteration-count: infinite;
+}
+div:hover{
+  animation:fondo;
+   animation-name: fondo;
+   animation-duration: 5s;
+   animation-iteration-count: infinite;
+   border-radius: 10%;
+}
+#Retorno{
+     animation:fondo;
+   animation-name: fondo;
+   animation-duration: 8s;
+   animation-iteration-count: infinite;
+   display: block;
+   font-size: 30px;
+   font-family: Century;
+   color: white;
+   font-weight: bold;
+}
+.hola{
+  color: white;
+  font-size: 20px;
+}

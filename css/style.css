@@ -1,0 +1,77 @@
+@keyframes fondo{
+    25%{background-color:skyblue}
+    40%{background-color:gray}
+    80%{background-color:skyblue}
+    90%{background-color:white}
+    100%{background-color:purple}
+}
+
+.container{
+  border-radius: 10px;
+}
+
+.card-actions{
+  border-radius: 10px;
+}
+
+h5{
+  font-family: Cooper Black;
+}
+
+body {
+   animation:fondo;
+   animation-name: fondo;
+   animation-duration: 8s;
+   animation-iteration-count: infinite;
+}
+
+div:hover{
+  animation:fondo;
+   animation-name: fondo;
+   animation-duration: 5s;
+   animation-iteration-count: infinite;
+}
+
+img{
+  border-radius: 100%;
+  transform: rotate(0deg);
+  transition: all 2s;
+}
+
+img:hover{
+  box-shadow: 0px 0px 10px 10px blue;
+  transform: rotate(180deg);
+}
+
+section{
+    margin-left: 30%;
+    margin-top: 10%;
+    background-color: rgba(52, 73, 94, 0.7);
+    width: 40%;
+    text-align: center;
+    border-radius: 60px;
+    height: 250px;
+}
+
+input {
+    border-style: outset solid;
+    border-radius: 10px;
+    box-shadow: 0px 0px 2px 2px;
+    padding: 10px;
+    margin-top: 20px;
+    background-color: gray;
+}
+
+#entrar {
+    text-align: center;
+    cursor: pointer;
+}
+
+section .row{
+    height: 600px;
+}
+
+embed{
+    width: 100%;
+    height: 200%;
+}

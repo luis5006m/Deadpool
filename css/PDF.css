@@ -1,0 +1,51 @@
+.container{
+margin-top: 15%;
+  /*border-radius: 30%;*/
+  height: 70%;
+}
+@keyframes fondo{
+    25%{background-color:skyblue}
+    40%{background-color:gray}
+    80%{background-color:skyblue}
+    90%{background-color:white}
+    100%{background-color:purple}
+}
+body {
+   animation:fondo;
+   animation-name: fondo;
+   animation-duration: 8s;
+   animation-iteration-count: infinite;
+}
+.hola:hover{
+  animation:fondo;
+   animation-name: fondo;
+   animation-duration: 5s;
+   animation-iteration-count: infinite;
+	border-radius: 30%;
+	display:inline;
+}
+section{
+    margin-left: 30%;
+    /*margin-top: 10%;*/
+    background-color: rgba(52, 73, 94, 0.7);
+    width: 40%;
+    text-align: center;
+    border-radius: 60px;
+  }
+#Regresar{
+	  animation:fondo;
+   animation-name: fondo;
+   animation-duration: 5s;
+   animation-iteration-count: infinite;
+   font-size: 30px;
+   font-family: Century;
+   color: white;
+   font-weight: bold;
+}
+.hola{
+	color: white;
+}
+h2{
+  font-family: Cooper Black;
+  text-decoration: underline;
+}

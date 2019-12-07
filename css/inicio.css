@@ -1,0 +1,30 @@
+@keyframes fondo{
+    25%{background-color:skyblue}
+    40%{background-color:gray}
+    80%{background-color:teal}
+    90%{background-color:maroon}
+    100%{background-color:purple}
+}
+body {
+   animation:fondo;
+   animation-name: fondo;
+   animation-duration: 8s;
+   animation-iteration-count: infinite;
+}
+#menu{
+  animation:fondo;
+   animation-name: fondo;
+   animation-duration: 5s;
+   animation-iteration-count: infinite;
+   text-align: center;
+   font-size:30px;
+   font-family: century;
+   font-weight: bold;
+
+}
+div:hover{
+   animation:fondo;
+   animation-name: fondo;
+   animation-duration: 2s;
+   animation-iteration-count: infinite;
+}

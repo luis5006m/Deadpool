@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Documento</title>
+	<link rel="stylesheet" type="text/css" href="../css/materialize.min.css">
+	<link rel="stylesheet" type="text/css" href="../css/prueba.css">
+</head>
+<body>
+	<nav class="center-align">
+		<div class="col s4" id="Retorno">Salir</div>
+	</nav>
+	<div class="container center-align">
+		<h2>Encuesta</h2>
+			<input id="Siguiente" type="submit" class="btn" value="Iniciar">
+				<div class="row" hidden id="p2">
+			<div class="col s12 input-field">
+				<input type="number">
+				<label>Edad</label>
+			</div>
+			<div class="col s12 input-field">
+				<select>
+					<option value=""></option>
+						<option value="0">Guatemala</option>
+						<option value="1">Belice</option>
+						<option value="2">Honduras</option>
+						<option value="2">El Salvador</option>
+						<option value="2">Nicaragua</option>
+						<option value="2">Costa Rica</option>
+						<option value="2">Panamá</option>
+						<option value="2">Otro...</option>
+					</select>
+					<label>Pais</label>
+			</div>
+		</div>
+		<div class="row" hidden id="p3">
+			<div class="col s12 input-field">
+				<input type="number">
+				<label>Dia</label>
+			</div>
+			<div class="col s12 input-field">
+				<select>
+					<option value=""></option>
+						<option value="0">Enero</option>
+						<option value="1">Febrero</option>
+						<option value="2">Marzo</option>
+						<option value="2">Abril</option>
+						<option value="2">Mayo</option>
+						<option value="2">Junio</option>
+						<option value="2">Julio</option>
+						<option value="2">Agosto</option>
+						<option value="2">Septiembre</option>
+						<option value="2">Octubre</option>
+						<option value="2">Noviembre</option>
+						<option value="2">Diciembre</option>
+					</select>
+					<label>Mes de Nacimiento</label>
+			</div>
+		</div>
+
+		<input id="Iniciar" type="submit" value="Siguiente" class="btn">
+		<div class="row" hidden id="p1">
+			<div class="col s12 input-field">
+				<select>
+					<option value="" disabled selected></option>
+					<option value="0">Femenino</option>
+					<option value="1">Masculino</option>
+				</select>
+				<label>Sexo</label>
+			</div>
+			<div class="col s12 input-field">
+				<select>
+					<option value=""></option>
+					<option value="0">Soltero/a</option>
+					<option value="1">Casado/a</option>
+					<option value="2">Divorciado/a</option>
+					<option value="2">Viudo/a</option>
+				</select>
+				<label>Estado Civil</label>
+			</div>
+		</div>
+
+	</div>
+	<script src="../js/jquery.js"></script>
+	<script src="../js/sweetalert2.min.js"></script>
+	<script src="../js/prueba.js"></script>
+	<script src="../js/materialize.min.js"></script>
+	<script src="../js/program.js"></script>
+</body>
+</html>
